@@ -1,4 +1,4 @@
-import { AppBar, Button, Drawer, IconButton, List, ListItem, ListItemButton, Toolbar, Typography } from "@mui/material"
+import { AppBar, Drawer, IconButton, List, ListItem, ListItemButton, Toolbar, Typography } from "@mui/material"
 import { Menu } from '@mui/icons-material'
 import { useState } from 'react';
 import { Box } from "@mui/system";
@@ -13,7 +13,7 @@ const Nav = () => {
       link: '/'
     },
     {
-      name: 'Books',
+      name: 'Library',
       link: '/books'
     }
   ]
