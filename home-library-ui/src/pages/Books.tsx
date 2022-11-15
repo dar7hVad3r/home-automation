@@ -1,11 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Book } from '../types/Book';
 
-type Book = {
-  name: string
-  genre: string
-  author: string
-}
 const Books = () => {
   const [books, setBooks] = useState<Book[]>([])
   const [res, setRes] = useState("")
